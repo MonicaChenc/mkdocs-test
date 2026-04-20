@@ -2,5 +2,11 @@ site_name: Monica Docs
 site_url: https://monicachenc.github.io/mkdocs-test/
 theme:
   name: material
+markdown_extensions:
+  - toc:
+      permalink: true
 nav:
   - 首页: index.md
+  - 快速开始: quick-start.md
+  - 使用说明: usage.md
+  - 常见问题: faq.md
