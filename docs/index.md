@@ -15,3 +15,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## 更多示例
+
+本站还包含若干中文示例页面，可从左侧导航进入，例如：[快速开始](quickstart.md)、[Markdown 示例](markdown-examples.md)。

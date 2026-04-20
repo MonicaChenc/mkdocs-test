@@ -2,5 +2,9 @@ site_name: Monica Docs
 site_url: https://monicachenc.github.io/mkdocs-test/
 theme:
   name: material
-nav:
-  - 首页: index.md
+
+# 构建时压缩 HTML，减少 site/ 里多余空白（不要手改 site/，每次 build 会重写）
+plugins:
+  - search
+  - minify:
+      minify_html: true
